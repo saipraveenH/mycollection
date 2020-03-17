@@ -36,9 +36,9 @@ public class HelloService {
 		this.helloRepository = helloRepository;
 	}
 	/*
-	 * for initailizing repository and private because not allowing to create no
-	 * args object ie for creating HelloService object we need some default
-	 * values....
+	 * for initailizing HelloRepository and is private because not allowing to
+	 * create no args object ie for creating HelloService object we need some
+	 * default values....
 	 */
 
 	private HelloService() {
